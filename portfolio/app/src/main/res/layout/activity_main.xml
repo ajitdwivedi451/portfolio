@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/car"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AJIT DWIVEDI"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/desg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android developer"
+        android:textColor="#fb0000"
+        android:textSize="20dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/Edu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDUCATION"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_below="@+id/desg"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/col"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktu"
+        android:textColor="#fb0000"
+        android:textSize="20dp"
+        android:layout_below="@+id/Edu"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/Branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="computer science"
+        android:textColor="#fb0000"
+        android:textSize="20dp"
+        android:layout_below="@+id/col"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/Branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2019-2022"
+        android:textColor="#fb0000"
+        android:textSize="20dp"
+        android:layout_below="@+id/col"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/Courses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Courses"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_below="@+id/Branch"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="what after college"
+        android:textColor="#fb0000"
+        android:textSize="20dp"
+        android:layout_below="@+id/Courses"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/course2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android development"
+        android:textColor="#fb0000"
+        android:textSize="20dp"
+        android:layout_below="@+id/course1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/course1s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginBottom="156dp"
+        android:text="2022"
+        android:textColor="#fb0000"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/linkedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linked in"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/course2"/>
+    <Button
+        android:id="@+id/github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="github"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/course2"/>
+
+
+
+
+
+</RelativeLayout>
